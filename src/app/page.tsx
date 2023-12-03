@@ -16,12 +16,12 @@ export default function Home() {
           </p>
         </div>
         <div className={css.imageBlock}>
-          <Image
+          {/* <Image
             src={"/assets/images/main-page.webp"}
             alt={"Drawing of upper body of nude woman in pink ink"}
             width="800"
             height="900"
-          />
+          /> */}
         </div>
       </div>
     </main>
