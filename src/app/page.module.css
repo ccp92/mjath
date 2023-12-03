@@ -1,8 +1,47 @@
 .main {
-  background-image: url("/assets/images/main-page.webp");
+  /* background-image: url("/assets/images/main-page.webp");
   background-position: right center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 50% 100%;
+  background-size: 50% 100%; */
   height: 100vh;
+
+  .homePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headerBlock {
+    padding: 1rem;
+    font-family: var(--font-inter);
+    max-width: 50%;
+
+    .title {
+      font-size: 7rem;
+      color: #dd4e76;
+      text-align: center;
+      font-weight: normal;
+    }
+
+    .subtitle {
+      font-size: 2rem;
+      color: #dd4e76;
+      text-align: center;
+    }
+
+    .subsubtitle {
+      font-size: 2rem;
+      color: #0e79b2;
+      text-align: center;
+    }
+  }
+
+  .imageBlock {
+    width: 800px;
+    display: flex;
+    justify-content: right;
+    z-index: -1;
+  }
 }
